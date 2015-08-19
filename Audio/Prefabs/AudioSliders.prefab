@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   template: {fileID: 22448012}
-  mixers: []
+  prefs: {fileID: 11461232, guid: 708ac89393d1d7244a6c219f4f58778d, type: 2}
 --- !u!114 &11440936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -630,7 +630,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: prefs
+      value: 
+      objectReference: {fileID: 11461232, guid: 708ac89393d1d7244a6c219f4f58778d,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148420}

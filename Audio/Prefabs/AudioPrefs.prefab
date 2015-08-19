@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &150906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 467490}
+  - 114: {fileID: 11461232}
+  m_Layer: 0
+  m_Name: AudioPrefs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467490
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11461232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2daab1fd3565e54794cc284b3fa0d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadOnStart: 1
+  saveOnDestroy: 1
+  keptParameters: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[1].mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 8dbde65c8d27fa74ab798c8981bd7cd5,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[1].label
+      value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[1].name
+      value: MusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[1].range.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[2].mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 8dbde65c8d27fa74ab798c8981bd7cd5,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[2].label
+      value: Effects
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[2].name
+      value: EffectsVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[2].range.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[0].label
+      value: Master
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[0].mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 8dbde65c8d27fa74ab798c8981bd7cd5,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[0].name
+      value: MasterVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[0].range.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keptParameters.Array.data[0].range.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: saveOnDestroy
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 150906}
+  m_IsPrefabParent: 1
